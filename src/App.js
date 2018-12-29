@@ -44,7 +44,59 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <h3>
+            Simple Chat bot using
+            <a
+              className="App-link"
+              href="https://reactjs.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              color="#61dafb"
+            >
+              React
+            </a>
+            ,
+            <a
+              className="App-link"
+              href="https://nodejs.org/en/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              node
+            </a>
+            ,
+            <a
+              className="App-link"
+              href="https://socket.io"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              socket.io
+            </a>
+            ,
+            <a
+              className="App-link"
+              href="https://dialogflow.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              api.ai
+            </a>
+          </h3>
+
           <ChatBot steps={this.state.steps} />
+
+          <div className="App-footer">
+            P.S find the server code
+            <a
+              className="App-link"
+              href="https://github.com/mcsekar12/simple-node-socket-io"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+          </div>
         </header>
       </div>
     );
